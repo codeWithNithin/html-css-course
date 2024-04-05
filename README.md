@@ -22,3 +22,6 @@
 
 - imported required assets and contents
 - added new file index.html
+- Creating a basic Blog site
+- we have 5 tags, that make the document structure
+- DOCTYPE html, html, head, body, footer
