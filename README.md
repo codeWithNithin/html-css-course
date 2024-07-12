@@ -30,3 +30,41 @@
 
 - Headings (h1, h2, h3, h4, h5, h6)
 - Paragraphs (p)
+- bold (strong , b)
+- italic (em, i)
+- list items (ul, li)
+- anchor (a)
+
+# Semantic Elements
+
+- header
+- main
+- article
+- aside
+- footer
+
+# CSS
+
+- cascading Style Sheets.
+- CSS describes the visual style and presentation of the content written in HTML.
+- selector - a tag or class or id that has declaration box
+- declaration - is a property and value pair
+- Rule - a selector with bunch of properties together.
+
+# conflicts between selectors.
+
+- when multiple selectors selecting same element.
+- all of the properties and rules are applied.
+- but there are conflicting properties.
+- highest priority - declrations marked as !important.
+- inline style (style attribute in HTML)
+- from class, id and element selector, id has the highest priority.
+- if there are multiple id selectors, then the last one is applied.
+- after id, next priority is -> class or psuedo class -> if multiple class or psuedo code present then the last one gets applied.
+- next is elemnt selector
+- last one is universal selector - lowest priority.
+
+# inheritance and universal selector.
+
+- only properties related to text, is been inherited...
+- inherited value can be overriden by using same property with diffrent value easily.

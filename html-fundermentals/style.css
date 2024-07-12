@@ -1,0 +1,112 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+h1,
+h4 {
+  text-transform: uppercase;
+}
+
+#author,
+h1 {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-posts ul {
+  list-style: none;
+}
+
+.main-header {
+  background: #f7f7f7;
+}
+
+aside {
+  background: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  width: 500px;
+}
+
+article li:first-child {
+  font-weight: bold;
+}
+
+article li:last-child {
+  font-style: italic;
+}
+
+/* STYLING LINKS */
+a:link {
+  text-decoration: none;
+  color: #1098ad;
+}
+
+a:visited {
+  color: #777;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  color: #000;
+  font-style: italic;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.related-posts h4 {
+  text-align: center;
+}
