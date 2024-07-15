@@ -1,7 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.article-header {
+  margin-bottom: 30px;
+}
+
+.article-header h2 {
+  margin-bottom: 20px;
+}
+
+.article-container h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -39,10 +61,13 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .footer p {
@@ -64,6 +89,13 @@ li {
 
 .main-header {
   background: #f7f7f7;
+  padding: 16px 40px;
+}
+
+.nav-items a:link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 40px;
 }
 
 aside {
@@ -71,6 +103,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   width: 500px;
+  padding: 50px 0;
 }
 
 article li:first-child {
@@ -109,4 +142,12 @@ a:active {
 
 .related-posts h4 {
   text-align: center;
+}
+
+#author {
+  font-size: 18px;
+}
+
+.related-posts {
+  margin-top: 30px;
 }
